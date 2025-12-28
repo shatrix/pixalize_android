@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Active color when item is selected -->
+    <item android:color="@color/back_light" android:state_checked="true" />
+    <!-- Inactive color when item is not selected -->
+    <item android:color="@color/back_light2" android:state_checked="false" />
+</selector>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:paddingRight="12dp"
+    android:paddingLeft="12dp"
+    android:background="@color/back_too_dark"
+    android:layout_height="match_parent">
+
+    <!-- AdMob banner is disabled in public version -->
+    <!-- To enable ads, see README.md for setup instructions -->
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image_view_wallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/RoundedCornerImage" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Download"
+            android:drawableTop="@drawable/ic_button_download"
+            android:drawableTint="@color/back_light"
+            android:textColor="@color/back_light"
+            android:text="Save"
+            android:background="@drawable/button_background_selector"/>
+
+        <Button
+            android:id="@+id/button_setwallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Set Wallpaper"
+            android:drawableTop="@drawable/ic_icon_wallpaper"
+            android:drawableTint="@color/back_light"
+            android:textColor="@color/back_light"
+            android:text="Set"
+            android:background="@drawable/button_background_selector"
+            android:layout_marginStart="12dp"/>
+
+        <Button
+            android:id="@+id/button_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Share"
+            android:drawableTop="@drawable/ic_button_share"
+            android:drawableTint="@color/back_light"
+            android:textColor="@color/back_light"
+            android:text="Share"
+            android:background="@drawable/button_background_selector"
+            android:layout_marginStart="12dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

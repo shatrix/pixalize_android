@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/back_too_dark"
+    android:gravity="center">
+
+    <!-- App Icon -->
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_gravity="center"/>
+
+    <!-- About Text -->
+    <TextView
+        android:id="@+id/about_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pixalize App"
+        android:textColor="@color/back_light"
+        android:layout_marginTop="16dp"
+        android:textStyle="normal"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+
+        <!-- Twitter Button -->
+        <Button
+            android:id="@+id/button_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_icon_x"
+            android:text="Twitter"
+            android:background="@drawable/button_background_selector"
+            android:textColor="@color/back_light"
+            android:layout_marginEnd="8dp" />
+
+        <!-- GitHub Button -->
+        <Button
+            android:id="@+id/button_github"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_icon_github"
+            android:text="GitHub"
+            android:background="@drawable/button_background_selector"
+            android:textColor="@color/back_light" />
+    </LinearLayout>
+
+</LinearLayout>

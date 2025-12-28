@@ -1,0 +1,38 @@
+# Android/Gradle
+*.iml
+.gradle/
+/local.properties
+local.properties
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+!.idea/codeStyles/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Signing
+*.jks
+*.keystore
+/app/release/
+signing.properties
+
+# Firebase (contains API keys - must be configured locally)
+/app/google-services.json
+
+# Proguard
+/app/proguard-rules.pro.bak
+
+# Kotlin
+*.kotlin_metadata
+
+# Memory profiling
+*.hprof
