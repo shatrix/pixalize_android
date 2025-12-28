@@ -34,7 +34,24 @@
 
 ## 📱 Screenshots
 
-*Add your screenshots here*
+<p align="center">
+  <img src="screenshots/home.jpg" width="200" alt="Home Screen">
+  <img src="screenshots/light-wallpapers.jpg" width="200" alt="Light Wallpapers">
+  <img src="screenshots/detailed.jpg" width="200" alt="Detail View">
+</p>
+
+<p align="center">
+  <img src="screenshots/set-wallpaper.jpg" width="200" alt="Set Wallpaper">
+  <img src="screenshots/share-menu.jpg" width="200" alt="Share Menu">
+</p>
+
+| Screen | Description |
+|--------|-------------|
+| **Home** | Main gallery with wallpaper grid and category navigation |
+| **Light Wallpapers** | Browsing the Light category |
+| **Detail View** | Full-size wallpaper with Download, Set, Share buttons |
+| **Set Wallpaper** | System wallpaper picker |
+| **Share** | Share menu for sending wallpapers |
 
 ---
 
