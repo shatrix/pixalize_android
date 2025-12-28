@@ -15,6 +15,16 @@
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
 </p>
 
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.shatrix.pixalize">
+    <img src="https://img.shields.io/badge/Google_Play-Download-green?style=for-the-badge&logo=google-play" alt="Get it on Google Play">
+  </a>
+</p>
+
+<p align="center">
+  <i>The Play Store version is the full app with Firebase integration and AdMob ads enabled.</i>
+</p>
+
 ---
 
 ## ✨ Features
