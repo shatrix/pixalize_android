@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:ads="http://schemas.android.com/tools"
     android:background="@color/back_too_dark"
+    android:fitsSystemWindows="true"
     android:padding="3dp"
     android:orientation="vertical">
 
